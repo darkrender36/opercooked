@@ -52,10 +52,10 @@ int main()
                     int pickedMenu = addNewMenu();
                     puts("");
                     if (pickedMenu == 1) {
-                        Dessert newdessert = addDessert();
+                        Dessert *newdessert = addDessert();
                         // add to menu list
                     } else if (pickedMenu == 2) {
-                        Beverages newbeverage = createBeverages();
+                        Beverages *newbeverage = createBeverages();
                         // add to menu list
                     }
                     break;
